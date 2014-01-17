@@ -112,7 +112,7 @@ brew install nodejs
 ```
 then
 ```sh
-npm install -g grunt-cli karma
+npm install -g grunt-cli karma express
 ```
 then from within angular-upload
 ```sh
@@ -120,7 +120,7 @@ npm install && bower install
 ```
 then you can start the testserver up with
 ```sh
-grunt server
+grunt webserver
 ```
 
 and you can access it through http://localhost:9001 and test the uploader

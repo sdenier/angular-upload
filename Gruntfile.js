@@ -212,6 +212,6 @@ module.exports = function (grunt) {
   grunt.registerTask('release', [
     'package',
     'bump'
-  ])
+  ]);
 
 };
